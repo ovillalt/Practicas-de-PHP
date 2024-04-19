@@ -1,5 +1,5 @@
 <?php
-if($_SERVER["HTTP_HOST"]=="loclhost"){
+if($_SERVER["HTTP_HOST"]=="localhost"){
     $server="localhost";
     $db="practicasphp";
     $user="root";
@@ -7,7 +7,7 @@ if($_SERVER["HTTP_HOST"]=="loclhost"){
 }else{
     $server="localhost";
     $db="chowa_practicasphp";
-    $user="root";
+    $user="chowa_practicasphp";
     $password="6*37J2hmn";
 }
 try{
