@@ -1,0 +1,19 @@
+{
+    "name": "ovillalt/practicasphp",
+    "description": "Proyecto de practicas con PHP",
+    "type": "project",
+    "license": "Public",
+    "autoload": {
+        "psr-4": {
+            "Ovillalt\\Practicasphp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Osvaldo Villalobos",
+            "email": "proyectos@osvaldovillalobos.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
