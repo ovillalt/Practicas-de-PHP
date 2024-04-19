@@ -14,7 +14,27 @@
 
 <body>
     <header>
-        <!-- place navbar here -->
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" aria-current="page">Practicas PHP <span
+                            class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Empleados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Puestos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Usuarios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cerrar sessión</a>
+                </li>
+            </ul>
+        </nav>
+
     </header>
     <main>
         <div class="p-5 mb-4 bg-light rounded-3">
