@@ -1,10 +1,11 @@
 <?php
 if($_SERVER["HTTP_HOST"]=="localhost"){
-    $url="localhost/practicas.php/";
+    $url="http://".$_SERVER["HTTP_HOST"]."/practicasphp/";
 }else{
     $url="https://".$_SERVER["HTTP_HOST"]."/";
-} 
-$url_base="localhost/practicas.php/"
+}
+echo $url;
+$url_base=$url;
 ?>
 <!doctype html>
 <html lang="es">
@@ -27,13 +28,13 @@ $url_base="localhost/practicas.php/"
                             class="visually-hidden">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php $url_base."/sections/employess/"; ?>">Empleados</a>
+                    <a class="nav-link" href="<?php echo $url_base; ?>/sections/employees/">Empleados</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php $url_base."/sections/positions/"; ?>">Puestos</a>
+                    <a class="nav-link" href="<?php echo $url_base."/sections/positions/"; ?>">Puestos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php $url_base."/sections/users/"; ?>">Usuarios</a>
+                    <a class="nav-link" href="<?php echo $url_base."/sections/users/"; ?>">Usuarios</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Cerrar sessión</a>
