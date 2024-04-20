@@ -24,17 +24,17 @@ $url_base=$url;
         <nav class="navbar navbar-expand navbar-light bg-light">
             <ul class="nav navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="<?php $url_base; ?>" aria-current="page">Practicas PHP <span
+                    <a class="nav-link active" href="<?php echo $url_base; ?>" aria-current="page">Practicas PHP <span
                             class="visually-hidden">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $url_base; ?>/sections/employees/">Empleados</a>
+                    <a class="nav-link" href="<?php echo $url_base; ?>sections/employees/">Empleados</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $url_base."/sections/positions/"; ?>">Puestos</a>
+                    <a class="nav-link" href="<?php echo $url_base."sections/positions/"; ?>">Puestos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo $url_base."/sections/users/"; ?>">Usuarios</a>
+                    <a class="nav-link" href="<?php echo $url_base."sections/users/"; ?>">Usuarios</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Cerrar sessión</a>
