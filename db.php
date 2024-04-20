@@ -12,7 +12,7 @@ if($_SERVER["HTTP_HOST"]=="localhost"){
 }
 try{
     $conection = new PDO("mysql:host=$server;dbname=$db",$user,$password);
-    echo "Thats great, You're connected";
+    echo '<h1>DB ok</h1>';
 }catch(Exception $exception){
     echo $exception->getMessage();
 }
